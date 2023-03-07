@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #00a6edff;
+    --secondary-color: #7fb800ff;
+    --accent1-color: #ffb400ff;
+   
+    --heading-font: 'Tahoma', serif;
+    --paragraph-font: 'Times New Roman', serif;
+    
+    --nav-background-color: #ffffff;
+    --nav-link-color: #00a6ed;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #ffffff;
+    }
+
+body {
+    max-width: 960px;
+    padding: 20px;
+    }
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    }
+      
+p {
+    padding: 25px;
+    text-align: center;
+    }
+      
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    }
+        
+    nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    }
+        
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+    }
+        
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    }
+
+/* Class Selectors */
+.hero {
+    position: relative;
+}
