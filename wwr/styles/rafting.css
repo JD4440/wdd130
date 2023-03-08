@@ -72,12 +72,23 @@ section {
     border: 5px solid rgb(0, 0, 0);
     padding: 50px;
     margin: 50px;
-  
-    
 }
-      
 
-      
+footer {
+    width: 1000px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 50px;
+    margin: 50px;
+}
+footer img {
+    width: 30px;
+    height: auto;
+}
+
+footer nav {
+    float: right;
+}
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
