@@ -14,79 +14,48 @@
     --nav-hover-background-color: #ffffff;
     }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
 body {
-    max-width: 1000px;
-    padding: 10px;
-    }
-
-header {
-    width: 1000px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 50px;
-    background-color: var(--accent1-color);
-    }
-
-header nav {
-    position: absolute;
-    left: 550px;
-    top: 210px;
+    max-width: 960px;
+    padding: 20px;
     }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    text-align: center;
+    }
+
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    width: auto;
+    height: auto;
     padding: 20px;
     }
 
-p {
-    font-family: var(--paragraph-font);
-    text-align: center;
-    }
 
 article {
-    width: 1000px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 50px;
-    
-   
+    position: absolute;
+    top: 150px;
+    left: 100px;
 }
 
 article img {
     float: right;
     width: 150px;
-    height: auto;
-   
-}
+  }
 
-section {
-    width: 1000px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 50px;
-}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    }
 
-footer {
-    width: 1000px;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 50px;
-    margin: 50px;
-}
+p {
+    padding: 25px;
+    }
+
 footer img {
-    width: 30px;
-    height: auto;
-}
-
-footer nav {
-    float: right;
+    width: 3pc;
 }
 
 nav {
@@ -94,18 +63,18 @@ nav {
     font-size: 1.2rem;
     display: flex;
     }
-        
-    nav a {
+      
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
     }
-        
+      
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
     }
-        
+      
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
@@ -114,5 +83,10 @@ nav a:hover {
 /* Class Selectors */
 .hero {
     position: relative;
-    width: 100%;
+   
+}
+
+.herodiv img {
+	width: 960px;
+	height: auto;
 }
