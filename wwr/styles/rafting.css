@@ -28,13 +28,13 @@ h1 {
     position: absolute;
     top: 50px;
     left: 220px;
+    right: 220px;
     width: auto;
     height: auto;
     padding: 20px;
     background-color: rgba(250,180,0,.7);
-    padding: 20px;
+    text-align: center;
     }
-
 
 article {
     position: absolute;
@@ -48,7 +48,7 @@ article {
 article img {
     float: right;
     width: 150px;
-    margin-top: 20px;
+    padding: 30px;
   }
 
 header {
