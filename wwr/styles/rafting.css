@@ -31,18 +31,24 @@ h1 {
     width: auto;
     height: auto;
     padding: 20px;
+    background-color: rgba(127,184,0,.7);
+    padding: 20px;
     }
 
 
 article {
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 100px;
+    right: 100px;
+    background-color: rgba(250,180,0,.7);
+    padding: 20px;
 }
 
 article img {
     float: right;
     width: 150px;
+    margin-top: 20px;
   }
 
 header {
@@ -86,7 +92,7 @@ nav a:hover {
    
 }
 
-.herodiv img {
-	width: 960px;
+.hero img {
+	max-width: 100%;
 	height: auto;
 }
