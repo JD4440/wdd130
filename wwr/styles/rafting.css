@@ -88,23 +88,26 @@ section p {
     grid-row-start: 2;
 }
 
+section h3 {
+    grid-column: span 5;
+    justify-items: center; 
+}
+
 figure {
-    border: thin #000000 solid;
-    padding: 5px;
-    max-width: 960px;
-    margin: auto;
-    }
+  
+    grid-row-start: 2
+   }
     
 figure img {
-    max-width: 190px;
-    max-height: autopx;
+    width: 100px;
+    height: 75px;
     }
     
 figcaption {
     background-color: #222;
     color: #fff;
-    font: italic smaller sans-serif;
-    max-width: 190px;
+    font: italic (--paragraph-font);
+    max-width: 100px;
     text-align: center;
     }
 
@@ -172,8 +175,8 @@ nav a:hover {
     grid-template-rows: 30px auto;
 }
 
-.flex-adventure {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.grid-adventure {
+    display: grid; 
+    grid-template-columns: 192px 192px 192px 192px 192px;
+    grid-template-rows: 30px auto;
 }
