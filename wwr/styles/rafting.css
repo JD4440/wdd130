@@ -89,8 +89,6 @@ section p {
 
 figure {
     border: thin #000000 solid;
-    display: flex;
-    flex-flow: row;
     padding: 5px;
     max-width: 960px;
     margin: auto;
@@ -105,7 +103,7 @@ figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
-     padding: 3px;
+    max-width: 220px;
     text-align: center;
     }
 
