@@ -54,6 +54,7 @@ article img {
     }
     
 header {
+    border: thin #000000 solid;
     padding: 20px;
     background-color: var(--accent1-color);
     }
@@ -64,7 +65,7 @@ header img {
 }
 
 section {
-    background-color: rgba(250,180,0,.7);
+    border: thin #000000 solid;
     padding: 20px;
 }
 
@@ -112,7 +113,12 @@ p {
     padding: 25px;
     }
 
+footer {
+    border: thin #000000 solid;
+}
+
 footer img {
+    
     width: 3pc;
 }
 
