@@ -64,20 +64,28 @@ header img {
 }
 
 section {
-    top: 200px;
-    left: 100px;
-    right: 100px;
     background-color: rgba(250,180,0,.7);
     padding: 20px;
-    display: flex;
-    flex-flow: row;
-    }
+}
 
-Section img {
-    width: 120px;
+section h2 {
+    grid-column-start: 2;
+    grid-column-end: span 1;  
+}
+
+section img {
+    width: 260px;
     padding: 30px;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: span 1;  
+    align-items: center;
+    justify-items: center; 
+}
 
-    }
+section p {
+    grid-row-start: 2;
+}
 
 figure {
     border: thin #000000 solid;
@@ -143,8 +151,7 @@ nav a:hover {
     height: auto;
 }
 
-
-.grid {
+.grid-header {
     display: grid; 
     grid-template-columns: 100px auto;
   
@@ -154,4 +161,9 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
-  }
+
+.grid-section {
+    display: grid; 
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 30px auto;
+}
