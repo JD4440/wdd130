@@ -96,15 +96,15 @@ figure {
     }
     
 figure img {
-    max-width: 220px;
-    max-height: 150px;
+    max-width: 190px;
+    max-height: autopx;
     }
     
 figcaption {
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
-    max-width: 220px;
+    max-width: 190px;
     text-align: center;
     }
 
@@ -114,20 +114,20 @@ p {
     }
 
 footer {
+    background-color: rgba(250,180,0,.7);
     border: thin #000000 solid;
+    text-align: center;
+   
 }
 
 footer img {
-    
     width: 3pc;
 }
 
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.3rem;
-
-    
-  }
+}
       
 nav a {
     display: block;
@@ -170,4 +170,10 @@ nav a:hover {
     display: grid; 
     grid-template-columns: 320px 320px 320px;
     grid-template-rows: 30px auto;
+}
+
+.flex-adventure {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
