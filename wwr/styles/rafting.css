@@ -66,7 +66,7 @@ header img {
 
 section {
     border: thin #000000 solid;
-    padding: 20px;
+    
 }
 
 section h2 {
@@ -94,23 +94,26 @@ section h3 {
 }
 
 figure {
-  
     grid-row-start: 2
+    position: relative;
    }
     
 figure img {
+    display: block;
     width: 100px;
     height: 75px;
+    align-items: center;
     }
     
 figcaption {
     background-color: #222;
     color: #fff;
     font: italic (--paragraph-font);
+    position: absolute;
     max-width: 100px;
-    text-align: center;
+    align-items: center;
+    margin: 0 auto;
     }
-
 
 p {
     padding: 25px;
@@ -120,7 +123,6 @@ footer {
     background-color: rgba(250,180,0,.7);
     border: thin #000000 solid;
     text-align: center;
-   
 }
 
 footer img {
