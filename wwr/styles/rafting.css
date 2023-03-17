@@ -69,12 +69,14 @@ section {
     right: 100px;
     background-color: rgba(250,180,0,.7);
     padding: 20px;
+    display: flex;
+    flex-flow: row;
     }
 
 Section img {
-    float: center;
     width: 120px;
     padding: 30px;
+
     }
 
 figure {
