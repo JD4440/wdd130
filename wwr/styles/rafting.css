@@ -94,26 +94,23 @@ section h3 {
 }
 
 figure {
-    grid-row-start: 2
-    position: relative;
-   }
+    grid-row-start: 2;
+    text-align: cetner;
+ }
     
 figure img {
     display: block;
     width: 100px;
     height: 75px;
-    align-items: center;
-    }
+   }
     
 figcaption {
     background-color: #222;
     color: #fff;
     font: italic (--paragraph-font);
-    position: absolute;
     max-width: 100px;
-    align-items: center;
     margin: 0 auto;
-    }
+}
 
 p {
     padding: 25px;
@@ -126,7 +123,7 @@ footer {
 }
 
 footer img {
-    width: 3pc;
+    width: 30px;
 }
 
 nav {
@@ -181,4 +178,17 @@ nav a:hover {
     display: grid; 
     grid-template-columns: 192px 192px 192px 192px 192px;
     grid-template-rows: 30px auto;
+}
+.flex-footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.flex-sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-direction: row;
+    background-color: rgba(250,180,0,.7);
 }
