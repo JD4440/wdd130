@@ -179,6 +179,13 @@ nav a:hover {
     grid-template-columns: 192px 192px 192px 192px 192px;
     grid-template-rows: 30px auto;
 }
+
+.version-one {
+    grid-column: span 5;
+    justify-items: center; 
+    }
+
+}
 .flex-footer {
     display: flex;
     justify-content: flex-end;
