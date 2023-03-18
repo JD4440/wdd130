@@ -106,7 +106,7 @@ figure img {
 figcaption {
     background-color: #222;
     color: #fff;
-    font: (--paragraph-font);
+    font: var(--heading-font);
     max-width: 100px;
 }
 
@@ -183,7 +183,6 @@ nav a:hover {
     justify-items: center; 
     }
 
-}
 .flex-footer {
     display: flex;
     justify-content: flex-end;
