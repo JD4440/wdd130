@@ -88,7 +88,7 @@ section p {
     grid-row-start: 2;
 }
 
-section h3 {
+h2 grid-adventure {
     grid-column: span 5;
     justify-items: center; 
 }
