@@ -95,6 +95,7 @@ h2 grid-adventure {
 
 figure {
     grid-row-start: 2;
+    margin: 0 auto;
  }
     
 figure img {
@@ -108,6 +109,9 @@ figcaption {
     color: #fff;
     font: var(--heading-font);
     max-width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 p {
