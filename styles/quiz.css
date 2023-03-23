@@ -6,7 +6,7 @@
 
 body {
     font-family: Merriweather, Georgia, serif;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
     background: #fff;
   }
@@ -24,7 +24,7 @@ header {
   }
 
 form {
-    width: 650px;
+    width: 500px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -39,16 +39,20 @@ fieldset {
     grid-gap: .5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: 1.5rem;
   }
+
+div {
+  padding: 5px;
+}
 
 #margin {
     width: 300px;
     height: auto;
     border: 1px solid rgb(0, 0, 0);
-    padding: 2px;
+    padding: 5px;
     background-color: 0 0 30px rgb(244, 82, 82);
-}
+  }
 
  button {
     margin: 1rem;
@@ -67,6 +71,7 @@ button:hover {
 .form-item {
     display: grid;
     align-items: center;
+   
 }
 
 .column1 {
