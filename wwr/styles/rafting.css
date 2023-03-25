@@ -149,6 +149,56 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
     }
 
+    form {
+        width: 600px;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 1px solid rgba(250,180,0);
+        border-radius: 0.5rem;
+        background-color: rgba(250,180,0);
+        display: grid;
+      }
+    
+    
+    fieldset {
+        display: grid;
+        grid-gap: .5rem;
+        margin: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 1.5rem;
+      }
+
+      input[type="checkbox"] {
+        width: 22px;
+        height: 22px;
+        vertical-align: bottom;
+      }
+    
+      button {
+        margin: 1rem;
+        background-color: navy;
+        color: #fff;
+        border: none;
+        border-radius: .5rem;
+        padding: .75rem;
+        font-size: 1.2rem;
+      }
+      
+    button:hover {
+        background-color: darkgreen;
+      }
+    
+    .form-item {
+        display: grid;
+        align-items: center;
+       
+    }
+    
+    .column1 {
+      grid-template-columns: auto;
+      margin: 0.5rem 0;
+    }
+
 /* Class Selectors */
 .hero {
     position: relative;
