@@ -93,6 +93,7 @@ h2 grid-adventure {
     justify-items: center; 
 }
 
+
 figure {
     grid-row-start: 2;
     margin: 0 auto;
@@ -148,6 +149,20 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
     }
+
+h2 grid-contactus {
+        justify-items: center; 
+    }
+
+h3 grid-contactus {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+iframe {
+    grid-column-start: 3;
+}
+
 
     form {
         width: 600px;
@@ -232,6 +247,12 @@ nav a:hover {
     grid-template-rows: 30px auto;
 }
 
+.grid-team {
+    display: grid; 
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 30px auto;
+}
+
 .version-one {
     grid-column: span 5;
     justify-items: center; 
@@ -249,4 +270,26 @@ nav a:hover {
     align-items: baseline;
     flex-direction: row;
     background-color: rgba(250,180,0,.7);
+}
+
+.grid-contactus {
+    display: grid; 
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 200px auto 20px;
+}
+
+.version-two img {
+    display: block;
+    width: 100px;
+    height: 100px;
+   }
+   
+.version-two figcaption {
+    background-color: #222;
+    color: #fff;
+    font: var(--heading-font);
+    max-width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
