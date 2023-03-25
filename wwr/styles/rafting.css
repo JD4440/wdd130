@@ -283,6 +283,11 @@ iframe {
     grid-template-columns: 320px 320px 320px;
     grid-template-rows: 200px auto 20px;
 }
+.grid-h1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
 
 .version-two img {
     display: block;
