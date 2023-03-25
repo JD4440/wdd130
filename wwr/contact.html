@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Waterton Rafting Adventures</title>
     <meta name="description" content="The contact us page includes our contact information, and the abililty to contact us.">
     <meta name="author" content="Shawn Jensen">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -38,25 +38,27 @@
               <textarea id="q2" name="q2" rows="1" ></textarea>
             </div>
     
-            <div class="form-item colum1">
-              <label for="q3">Purpose (select from the dropdwon):</label>
-              <select id="q3" name="q3">
-              <option value="" selected disabled>Choose One ...</option>
-              <option value="Inquiry">General Inquiry</option>
-              <option value="Question">Reservation Question</option>
-              <option value="Suggestion">Website Suggestion</option>
-              </select>
+            <div class="radioleft colum1">
+              <p id=form-prompt>Purpose</p>
+
+              <input type="radio" id="inquiry" name="inquiry" value="inquiry">
+              <label for="inquiry">General Inquiry</label><br>
+              
+              <input type="radio" id="question" name="question" value="question">
+              <label for="question">Reservation Question</label><br>
+
+              <input type="radio" id="Suggestion" name="Suggestion" value="Suggestion">
+              <label for="Suggestion">Website Suggestion</label><br>
             </div>
     
             <div class="form-item column1">
               <label for="q4">Message:</label>
-              <div id="margin">margin: 10px 5px 15px;</div>
-              <input type="number" id="q4" name="q4">
+              <textarea id="q2" name="q2" rows="6" ></textarea>
             </div>
 
             <div class="form-item column1">
               <label for="q5">Please subscribe me to the monthly newsletter</label>
-              <input type="checkbox" id="pet" name="pet">
+              <input type="checkbox" id="5" name="5">
             </div>
     
           </fieldset>

@@ -154,7 +154,7 @@ h2 grid-contactus {
         justify-items: center; 
     }
 
-h3 grid-contactus {
+h grid-contactus {
     grid-column-start: 1;
     grid-row-start: 1;
 }
@@ -186,6 +186,12 @@ iframe {
       input[type="checkbox"] {
         width: 22px;
         height: 22px;
+        vertical-align: bottom;
+      }
+
+      input[type="radio"] {
+        width: 15px;
+        height: 15px;
         vertical-align: bottom;
       }
     
@@ -292,4 +298,9 @@ iframe {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+
+.radioLeft input{
+    text-align: left;
+    display:inline;
 }
