@@ -152,7 +152,7 @@ nav a:hover {
 
 h3 {
     grid-column-start: 2;
-    grid-row-start: 1;
+    grid-row-start: 2;
 }
 
 iframe {
@@ -276,6 +276,11 @@ input[type="checkbox"] {
     display: grid; 
     grid-template-columns: 60px 280px 280px 280px 60px;
     grid-template-rows: 200px auto 20px;
+}
+
+.grid-contactus h1 {
+    position: unset;
+    grid-column: 1/6;
 }
 
 .version-two img {
