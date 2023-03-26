@@ -150,21 +150,16 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
     }
 
-h2 grid-contactus {
-        justify-items: center; 
-    }
-
-h grid-contactus {
-    grid-column-start: 1;
+h3 {
+    grid-column-start: 2;
     grid-row-start: 1;
 }
 
 iframe {
-    grid-column-start: 3;
+    grid-column-start: 4;
 }
 
-
-    form {
+form {
         width: 600px;
         margin: 0 auto;
         padding: 1rem;
@@ -174,8 +169,7 @@ iframe {
         display: grid;
       }
     
-    
-    fieldset {
+fieldset {
         display: grid;
         grid-gap: .5rem;
         margin: 1rem;
@@ -183,7 +177,7 @@ iframe {
         padding: 1.5rem;
       }
 
-      input[type="checkbox"] {
+input[type="checkbox"] {
         width: 22px;
         height: 22px;
         vertical-align: bottom;
@@ -280,14 +274,9 @@ iframe {
 
 .grid-contactus {
     display: grid; 
-    grid-template-columns: 320px 320px 320px;
+    grid-template-columns: 60px 280px 280px 280px 60px;
     grid-template-rows: 200px auto 20px;
 }
-.grid-h1 {
-    grid-column-start: 1;
-    grid-row-start: 1;
-}
-
 
 .version-two img {
     display: block;
