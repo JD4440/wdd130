@@ -289,9 +289,6 @@ input[type="checkbox"] {
     grid-column: 1/6;
 }
 
-.grid-trips h1 {
-    position: unset;
-    grid-column: 1/6;
 
 .version-two img {
     display: block;
