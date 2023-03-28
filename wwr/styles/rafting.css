@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: rgb(0, 106, 152);
-    --secondary-color: rgb(0, 106, 152);
+    --secondary-color: rgb(160, 209, 54);
     --accent1-color: #ffb400ff;
    
     --heading-font: 'Tahoma', serif;
@@ -356,21 +356,14 @@ input[type="checkbox"] {
 .grid-tripquestions {
     display: grid; 
     grid-template-columns: 480px 480px;
-    grid-template-rows: 80px 40px;
+    grid-template-rows: 150px;
 }
 
 .grid-tripquestions h2 {
     grid-column-start: 2;
     grid-row-start: 1;
     text-align: right;
-    background-color: rgba(126, 184, 0);
+    background-color: rgb(160, 209, 54);
     padding: 5px;
 }
 
-.grid-tripquestions a {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    text-align: right;
-    background-color: rgba(126, 184, 0);
-    padding: 10px;
-}
