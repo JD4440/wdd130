@@ -284,6 +284,13 @@ input[type="checkbox"] {
     grid-template-rows: 120px 200px 200px;
 }
 
+.grid-activity {
+    display: grid; 
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 20px 200px 200px;
+}
+}
+
 .grid-contactus h1 {
     position: unset;
     grid-column: 1/6;
@@ -293,6 +300,7 @@ input[type="checkbox"] {
     position: unset;
     grid-column: 1/4;
 }
+
 
 .grade1 {
     text-align: center;
@@ -366,4 +374,24 @@ input[type="checkbox"] {
     background-color: rgb(160, 209, 54);
     padding: 5px;
 }
+
+.form-newsletter {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(250,180,0);
+    border-radius: 0.5rem;
+    background-color: rgba(250,180,0);
+    display: grid;
+  }
+  
+
+.fieldset-newsletter {
+
+  }
+
+.form-itemnewsletter {
+ 
+}
+
 
