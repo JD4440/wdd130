@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: rgb(0, 106, 152);
-    --secondary-color: #7fb800ff;
+    --secondary-color: rgb(0, 106, 152);
     --accent1-color: #ffb400ff;
    
     --heading-font: 'Tahoma', serif;
@@ -289,6 +289,31 @@ input[type="checkbox"] {
     grid-column: 1/6;
 }
 
+.grid-trips h1 {
+    position: unset;
+    grid-column: 1/4;
+}
+
+.grade1 {
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin: 2rem 0;
+}
+
+.grade2 {
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    margin: 2rem 0;
+}
+
+.grade3 {
+    text-align: center;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    margin: 2rem 0;
+}
 
 .version-two img {
     display: block;
@@ -306,7 +331,38 @@ input[type="checkbox"] {
     margin-bottom: 10px;
 }
 
+.version-three img {
+    display: block;
+    width: 200px;
+    height: 150px;
+   }
+   
+.version-three figcaption {
+    background-color: rgba(126, 184, 0);
+    color: rgb(0, 0, 0);
+    font: var(--heading-font);
+    font-size: 1.5rem;
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.flex-tripquestions {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.flex-questions{
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250,180,0,.7);
+}
+
 .radioLeft input{
     text-align: left;
     display:inline;
 }
+
