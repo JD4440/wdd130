@@ -338,7 +338,7 @@ input[type="checkbox"] {
    }
    
 .version-three figcaption {
-    background-color: rgba(126, 184, 0);
+    background-color: #ffb400ff;;
     color: rgb(0, 0, 0);
     font: var(--heading-font);
     font-size: 1.5rem;
@@ -348,21 +348,29 @@ input[type="checkbox"] {
     margin-bottom: 10px;
 }
 
-.flex-tripquestions {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
-
-.flex-questions{
-    width: 480px;
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(250,180,0,.7);
-}
-
 .radioLeft input{
     text-align: left;
     display:inline;
 }
 
+.grid-tripquestions {
+    display: grid; 
+    grid-template-columns: 480px 480px;
+    grid-template-rows: 50px 50px;
+}
+
+.grid-tripquestions h2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: right;
+    background-color: rgba(126, 184, 0);
+    padding: 5px;
+}
+
+.grid-tripquestions a {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: right;
+    background-color: rgba(126, 184, 0);
+    padding: 10px;
+}
