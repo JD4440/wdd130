@@ -297,6 +297,7 @@ input[type="checkbox"] {
 }
 
 .grid-activity h4{
+    position: unset;
     grid-column: 1/4;
 }
 
