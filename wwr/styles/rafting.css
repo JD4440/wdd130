@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
     }
 
+.grid-h1 {
+    position: unset;
+    grid-column: 1/6;
+
+}
+
 h1 {
     position: absolute;
     top: 50px;
@@ -376,22 +382,26 @@ input[type="checkbox"] {
 }
 
 .form-newsletter {
-    width: 600px;
+    width: 470px;
     margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid rgba(250,180,0);
-    border-radius: 0.5rem;
+    padding: 10px;
     background-color: rgba(250,180,0);
     display: grid;
   }
   
 
 .fieldset-newsletter {
-
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
   }
 
 .form-itemnewsletter {
- 
+    display: grid;
+    align-items: center;
+  
 }
 
 
