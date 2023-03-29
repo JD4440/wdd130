@@ -297,7 +297,7 @@ input[type="checkbox"] {
 }
 
 .grid-activity h4{
-    grid-column: 1/6;
+    grid-column: 1/4;
 }
 
 .grid-contactus h1 {
