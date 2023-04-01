@@ -287,7 +287,7 @@ input[type="checkbox"] {
 .grid-trips {
     display: grid; 
     grid-template-columns: 320px 320px 320px;
-    grid-template-rows: 120px 200px 200px;
+    grid-template-rows: 120px 200px 50px;
 }
 
 .grid-activity {
@@ -408,4 +408,15 @@ input[type="checkbox"] {
   
 }
 
+table, td {
+    border: .5px solid #ffffff;
+}
 
+td {
+    padding: 0.75rem
+
+}
+
+td {
+    text-align: center;
+  }
