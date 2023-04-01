@@ -244,7 +244,7 @@ input[type="checkbox"] {
 .grid-section {
     display: grid; 
     grid-template-columns: 320px 320px 320px;
-    grid-template-rows: 30px auto;
+    grid-template-rows: 30px;
 }
 
 .grid-adventure {
@@ -287,7 +287,7 @@ input[type="checkbox"] {
 .grid-trips {
     display: grid; 
     grid-template-columns: 320px 320px 320px;
-    grid-template-rows: 120px 200px 50px;
+    grid-template-rows: 120px 1px 1px;
 }
 
 .grid-activity {
@@ -420,3 +420,10 @@ td {
 td {
     text-align: center;
   }
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
